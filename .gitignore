@@ -1,0 +1,10 @@
+###> IDE files ###
+/.idea
+###< IDE files ###
+
+###> Environment files ###
+.env
+###< Environment files ###
+
+!.gitignore
+
