@@ -1,6 +1,6 @@
-FROM alpine:3.8
+FROM alpine:latest
 
-LABEL maintainer="Vincent Composieux <vincent.composieux@gmail.com>"
+LABEL maintainer="Dadang NH <project@dadangnh.com>"
 
 RUN rm -rf /var/cache/apk/* && \
     rm -rf /tmp/*
@@ -41,7 +41,6 @@ RUN apk add --update \
     php7-sqlite3 \
     php7-sodium \
     php7-redis \
-    php7-mongodb \
     make \
     curl
 

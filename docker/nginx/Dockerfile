@@ -1,6 +1,6 @@
-FROM alpine:3.8
+FROM alpine:latest
 
-MAINTAINER Vincent Composieux <vincent.composieux@gmail.com>
+MAINTAINER Dadang NH <project@dadangnh.com>
 
 RUN rm -rf /var/cache/apk/* && \
     rm -rf /tmp/*
